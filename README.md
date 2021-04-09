@@ -65,13 +65,19 @@ export default {
 
 ### Usage and installation
 
-##### With npm 
+##### If you're using `npm`
+
 Add in your `package.json` 
 ```json
 "dependencies":  {
 	"@poulycroc/vue-props-mapper":  "git://github.com/Poulycroc/vue-props-mapper.git",
 },
 ```
+then
+```bash
+npm install
+```
+
 ```js
 import mapProps from '@poulycroc/vue-props-mapper'
 

@@ -3,10 +3,11 @@
  */
 
 /**
- * @param {Object} prop
+ * @param {Array} keys
+ * @param {Object} options
  * @return {Object}
  */
-export default (keys, options) => {
+export default (keys, options = {}) => {
   let resProps = {};
   keys.forEach(k => {
     resProps = {
