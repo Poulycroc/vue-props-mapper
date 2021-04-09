@@ -65,7 +65,7 @@ export default {
 
 ### Usage and installation
 
-##### If you're using `npm`
+#### If you're using `npm`
 
 Add in your `package.json` 
 ```json
@@ -77,8 +77,9 @@ then
 ```bash
 npm install
 ```
-
-```js
+in your component
+```html
+<script>
 import mapProps from '@poulycroc/vue-props-mapper'
 
 export default {
@@ -92,4 +93,5 @@ export default {
 	},
 	//
 }
+</script>
 ```
