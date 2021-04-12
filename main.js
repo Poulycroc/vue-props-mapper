@@ -7,7 +7,7 @@
  * @param {Object} options
  * @return {Object}
  */
-export default (keys, options = {}) => {
+module.exports = (keys, options = {}) => {
   let resProps = {};
   keys.forEach(k => {
     resProps = {
