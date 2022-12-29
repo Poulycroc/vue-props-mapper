@@ -70,7 +70,7 @@ export default {
 Add in your `package.json` 
 ```json
 "dependencies":  {
-	"@poulycroc/vue-props-mapper":  "git://github.com/Poulycroc/vue-props-mapper.git",
+	"@poulycroc/vue-props-mapper":  "git+https://github.com/Poulycroc/vue-props-mapper.git",
 },
 ```
 then
